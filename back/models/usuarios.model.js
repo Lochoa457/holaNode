@@ -17,7 +17,7 @@ const userSchema = new conexion.Schema({
         default: "guest",
     },
     habilitado: {
-        type: String,
+        type: Boolean,
         default: true,
     }
 });
